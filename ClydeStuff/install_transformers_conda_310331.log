@@ -1,0 +1,1043 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/c/clydel/miniconda3/envs/jailbreak
+
+  added / updated specs:
+    - accelerate
+    - datasets
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    accelerate-0.34.2          |     pyhd8ed1ab_0         211 KB  conda-forge
+    aiohappyeyeballs-2.4.3     |     pyhd8ed1ab_0          19 KB  conda-forge
+    aiohttp-3.10.5             |  py312h5eee18b_0         855 KB
+    aiosignal-1.3.1            |     pyhd8ed1ab_0          12 KB  conda-forge
+    arrow-cpp-16.1.0           |       hc1eb8f0_0        12.1 MB
+    attrs-24.2.0               |     pyh71513ae_0          55 KB  conda-forge
+    aws-c-auth-0.6.19          |       h5eee18b_0          99 KB
+    aws-c-cal-0.5.20           |       hdbd6064_0          42 KB
+    aws-c-common-0.8.5         |       h5eee18b_0         207 KB
+    aws-c-compression-0.2.16   |       h5eee18b_0          18 KB
+    aws-c-event-stream-0.2.15  |       h6a678d5_0          50 KB
+    aws-c-http-0.6.25          |       h5eee18b_0         200 KB
+    aws-c-io-0.13.10           |       h5eee18b_0         150 KB
+    aws-c-mqtt-0.7.13          |       h5eee18b_0          67 KB
+    aws-c-s3-0.1.51            |       hdbd6064_0          71 KB
+    aws-c-sdkutils-0.1.6       |       h5eee18b_0          50 KB
+    aws-checksums-0.1.13       |       h5eee18b_0          48 KB
+    aws-crt-cpp-0.18.16        |       h6a678d5_0         213 KB
+    aws-sdk-cpp-1.10.55        |       h721c034_0         2.5 MB
+    boost-cpp-1.78.0           |       he72f1d9_0        17.1 MB  conda-forge
+    bottleneck-1.3.7           |  py312ha883a20_0         140 KB
+    brotli-python-1.0.9        |  py312h6a678d5_8         356 KB
+    c-ares-1.19.1              |       h5eee18b_0         118 KB
+    ca-certificates-2024.8.30  |       hbcca054_0         155 KB  conda-forge
+    certifi-2024.8.30          |     pyhd8ed1ab_0         160 KB  conda-forge
+    charset-normalizer-3.3.2   |     pyhd8ed1ab_0          46 KB  conda-forge
+    datasets-3.0.1             |     pyhd8ed1ab_0         323 KB  conda-forge
+    dill-0.3.8                 |     pyhd8ed1ab_0          86 KB  conda-forge
+    filelock-3.16.1            |     pyhd8ed1ab_0          17 KB  conda-forge
+    frozenlist-1.4.0           |  py312h5eee18b_0          52 KB
+    fsspec-2024.6.1            |     pyhff2d567_0         130 KB  conda-forge
+    gflags-2.2.2               |    he1b5a44_1004         114 KB  conda-forge
+    glog-0.5.0                 |       h48cff8f_0         104 KB  conda-forge
+    huggingface_hub-0.25.1     |     pyhd8ed1ab_0         265 KB  conda-forge
+    icu-70.1                   |       h27087fc_0        13.5 MB  conda-forge
+    idna-3.10                  |     pyhd8ed1ab_0          49 KB  conda-forge
+    intel-openmp-2023.1.0      |   hdb19cb5_46306        17.2 MB
+    jinja2-3.1.4               |     pyhd8ed1ab_0         109 KB  conda-forge
+    libabseil-20240116.2       | cxx17_h6a678d5_0         1.3 MB
+    libbrotlicommon-1.0.9      |       h166bdaf_7          65 KB  conda-forge
+    libbrotlidec-1.0.9         |       h166bdaf_7          33 KB  conda-forge
+    libbrotlienc-1.0.9         |       h166bdaf_7         287 KB  conda-forge
+    libcurl-8.9.1              |       h251f7ec_0         439 KB
+    libedit-3.1.20230828       |       h5eee18b_0         179 KB
+    libev-4.33                 |       h516909a_1         104 KB  conda-forge
+    libgrpc-1.62.2             |       h2d74bed_0         8.0 MB
+    libnghttp2-1.57.0          |       h2d74bed_0         674 KB
+    libprotobuf-4.25.3         |       he621ea3_0         2.8 MB
+    libssh2-1.11.0             |       h251f7ec_0         282 KB
+    libthrift-0.15.0           |       h1795dd8_2         4.0 MB
+    lz4-c-1.9.4                |       h6a678d5_1         156 KB
+    markupsafe-2.1.3           |  py312h5eee18b_0          25 KB
+    mkl-2023.1.0               |   h213fc3f_46344       171.5 MB
+    mkl-service-2.4.0          |  py312h5eee18b_1          66 KB
+    mkl_fft-1.3.10             |  py312h5eee18b_0         223 KB
+    mkl_random-1.2.7           |  py312h526ad5a_0         355 KB
+    mpmath-1.3.0               |     pyhd8ed1ab_0         428 KB  conda-forge
+    multidict-6.0.4            |  py312h5eee18b_0          58 KB
+    multiprocess-0.70.15       |  py312h06a4308_0         323 KB
+    networkx-3.3               |     pyhd8ed1ab_1         1.1 MB  conda-forge
+    numexpr-2.8.7              |  py312hf827012_0         149 KB
+    numpy-1.26.4               |  py312hc5e2394_0          11 KB
+    numpy-base-1.26.4          |  py312h0da6c21_0         7.7 MB
+    orc-2.0.1                  |       h2d29ad5_0         1.1 MB
+    packaging-24.1             |     pyhd8ed1ab_0          49 KB  conda-forge
+    pandas-2.2.2               |  py312h526ad5a_0        15.4 MB
+    psutil-5.9.0               |  py312h5eee18b_0         449 KB
+    pyarrow-16.1.0             |  py312h526ad5a_0         4.6 MB
+    pysocks-1.7.1              |     pyha2e5f31_6          19 KB  conda-forge
+    python-dateutil-2.9.0      |     pyhd8ed1ab_0         218 KB  conda-forge
+    python-tzdata-2024.2       |     pyhd8ed1ab_0         139 KB  conda-forge
+    python-xxhash-2.0.2        |  py312h5eee18b_1          20 KB
+    pytorch-2.3.0              |cpu_py312h5a90aa3_1        76.4 MB
+    pytz-2024.2                |     pyhd8ed1ab_0         183 KB  conda-forge
+    pyyaml-6.0.1               |  py312h5eee18b_0         186 KB
+    re2-2022.04.01             |       h27087fc_0         212 KB  conda-forge
+    requests-2.32.3            |     pyhd8ed1ab_0          57 KB  conda-forge
+    s2n-1.3.27                 |       hdbd6064_0         382 KB
+    safetensors-0.4.4          |  py312hb7cc22b_0         1.0 MB
+    six-1.16.0                 |     pyh6c4a22f_0          14 KB  conda-forge
+    snappy-1.2.1               |       h6a678d5_0          46 KB
+    sympy-1.13.3               |     pyh04b8f61_3         4.3 MB  conda-forge
+    tqdm-4.66.5                |     pyhd8ed1ab_0          87 KB  conda-forge
+    typing-extensions-4.12.2   |       hd8ed1ab_0          10 KB  conda-forge
+    typing_extensions-4.12.2   |     pyha770c72_0          39 KB  conda-forge
+    urllib3-2.2.2              |     pyhd8ed1ab_0          93 KB  conda-forge
+    utf8proc-2.6.1             |       h5eee18b_1          93 KB
+    xxhash-0.8.0               |       h7f98852_3          86 KB  conda-forge
+    yaml-0.2.5                 |       h7f98852_2          87 KB  conda-forge
+    yarl-1.11.0                |  py312h5eee18b_0         156 KB
+    zstd-1.5.5                 |       hc292b87_2         643 KB
+    ------------------------------------------------------------
+                                           Total:       373.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  accelerate         conda-forge/noarch::accelerate-0.34.2-pyhd8ed1ab_0 
+  aiohappyeyeballs   conda-forge/noarch::aiohappyeyeballs-2.4.3-pyhd8ed1ab_0 
+  aiohttp            pkgs/main/linux-64::aiohttp-3.10.5-py312h5eee18b_0 
+  aiosignal          conda-forge/noarch::aiosignal-1.3.1-pyhd8ed1ab_0 
+  arrow-cpp          pkgs/main/linux-64::arrow-cpp-16.1.0-hc1eb8f0_0 
+  attrs              conda-forge/noarch::attrs-24.2.0-pyh71513ae_0 
+  aws-c-auth         pkgs/main/linux-64::aws-c-auth-0.6.19-h5eee18b_0 
+  aws-c-cal          pkgs/main/linux-64::aws-c-cal-0.5.20-hdbd6064_0 
+  aws-c-common       pkgs/main/linux-64::aws-c-common-0.8.5-h5eee18b_0 
+  aws-c-compression  pkgs/main/linux-64::aws-c-compression-0.2.16-h5eee18b_0 
+  aws-c-event-stream pkgs/main/linux-64::aws-c-event-stream-0.2.15-h6a678d5_0 
+  aws-c-http         pkgs/main/linux-64::aws-c-http-0.6.25-h5eee18b_0 
+  aws-c-io           pkgs/main/linux-64::aws-c-io-0.13.10-h5eee18b_0 
+  aws-c-mqtt         pkgs/main/linux-64::aws-c-mqtt-0.7.13-h5eee18b_0 
+  aws-c-s3           pkgs/main/linux-64::aws-c-s3-0.1.51-hdbd6064_0 
+  aws-c-sdkutils     pkgs/main/linux-64::aws-c-sdkutils-0.1.6-h5eee18b_0 
+  aws-checksums      pkgs/main/linux-64::aws-checksums-0.1.13-h5eee18b_0 
+  aws-crt-cpp        pkgs/main/linux-64::aws-crt-cpp-0.18.16-h6a678d5_0 
+  aws-sdk-cpp        pkgs/main/linux-64::aws-sdk-cpp-1.10.55-h721c034_0 
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  boost-cpp          conda-forge/linux-64::boost-cpp-1.78.0-he72f1d9_0 
+  bottleneck         pkgs/main/linux-64::bottleneck-1.3.7-py312ha883a20_0 
+  brotli-python      pkgs/main/linux-64::brotli-python-1.0.9-py312h6a678d5_8 
+  c-ares             pkgs/main/linux-64::c-ares-1.19.1-h5eee18b_0 
+  certifi            conda-forge/noarch::certifi-2024.8.30-pyhd8ed1ab_0 
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.3.2-pyhd8ed1ab_0 
+  colorama           conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_0 
+  datasets           conda-forge/noarch::datasets-3.0.1-pyhd8ed1ab_0 
+  dill               conda-forge/noarch::dill-0.3.8-pyhd8ed1ab_0 
+  filelock           conda-forge/noarch::filelock-3.16.1-pyhd8ed1ab_0 
+  frozenlist         pkgs/main/linux-64::frozenlist-1.4.0-py312h5eee18b_0 
+  fsspec             conda-forge/noarch::fsspec-2024.6.1-pyhff2d567_0 
+  gflags             conda-forge/linux-64::gflags-2.2.2-he1b5a44_1004 
+  glog               conda-forge/linux-64::glog-0.5.0-h48cff8f_0 
+  huggingface_hub    conda-forge/noarch::huggingface_hub-0.25.1-pyhd8ed1ab_0 
+  icu                conda-forge/linux-64::icu-70.1-h27087fc_0 
+  idna               conda-forge/noarch::idna-3.10-pyhd8ed1ab_0 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46306 
+  jinja2             conda-forge/noarch::jinja2-3.1.4-pyhd8ed1ab_0 
+  krb5               pkgs/main/linux-64::krb5-1.20.1-h143b758_1 
+  libabseil          pkgs/main/linux-64::libabseil-20240116.2-cxx17_h6a678d5_0 
+  libbrotlicommon    conda-forge/linux-64::libbrotlicommon-1.0.9-h166bdaf_7 
+  libbrotlidec       conda-forge/linux-64::libbrotlidec-1.0.9-h166bdaf_7 
+  libbrotlienc       conda-forge/linux-64::libbrotlienc-1.0.9-h166bdaf_7 
+  libcurl            pkgs/main/linux-64::libcurl-8.9.1-h251f7ec_0 
+  libedit            pkgs/main/linux-64::libedit-3.1.20230828-h5eee18b_0 
+  libev              conda-forge/linux-64::libev-4.33-h516909a_1 
+  libevent           pkgs/main/linux-64::libevent-2.1.12-hdbd6064_1 
+  libgrpc            pkgs/main/linux-64::libgrpc-1.62.2-h2d74bed_0 
+  libnghttp2         pkgs/main/linux-64::libnghttp2-1.57.0-h2d74bed_0 
+  libprotobuf        pkgs/main/linux-64::libprotobuf-4.25.3-he621ea3_0 
+  libssh2            pkgs/main/linux-64::libssh2-1.11.0-h251f7ec_0 
+  libthrift          pkgs/main/linux-64::libthrift-0.15.0-h1795dd8_2 
+  lz4-c              pkgs/main/linux-64::lz4-c-1.9.4-h6a678d5_1 
+  markupsafe         pkgs/main/linux-64::markupsafe-2.1.3-py312h5eee18b_0 
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h213fc3f_46344 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py312h5eee18b_1 
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.10-py312h5eee18b_0 
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.7-py312h526ad5a_0 
+  mpmath             conda-forge/noarch::mpmath-1.3.0-pyhd8ed1ab_0 
+  multidict          pkgs/main/linux-64::multidict-6.0.4-py312h5eee18b_0 
+  multiprocess       pkgs/main/linux-64::multiprocess-0.70.15-py312h06a4308_0 
+  networkx           conda-forge/noarch::networkx-3.3-pyhd8ed1ab_1 
+  numexpr            pkgs/main/linux-64::numexpr-2.8.7-py312hf827012_0 
+  numpy              pkgs/main/linux-64::numpy-1.26.4-py312hc5e2394_0 
+  numpy-base         pkgs/main/linux-64::numpy-base-1.26.4-py312h0da6c21_0 
+  orc                pkgs/main/linux-64::orc-2.0.1-h2d29ad5_0 
+  packaging          conda-forge/noarch::packaging-24.1-pyhd8ed1ab_0 
+  pandas             pkgs/main/linux-64::pandas-2.2.2-py312h526ad5a_0 
+  psutil             pkgs/main/linux-64::psutil-5.9.0-py312h5eee18b_0 
+  pyarrow            pkgs/main/linux-64::pyarrow-16.1.0-py312h526ad5a_0 
+  pysocks            conda-forge/noarch::pysocks-1.7.1-pyha2e5f31_6 
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0-pyhd8ed1ab_0 
+  python-tzdata      conda-forge/noarch::python-tzdata-2024.2-pyhd8ed1ab_0 
+  python-xxhash      pkgs/main/linux-64::python-xxhash-2.0.2-py312h5eee18b_1 
+  pytorch            pkgs/main/linux-64::pytorch-2.3.0-cpu_py312h5a90aa3_1 
+  pytz               conda-forge/noarch::pytz-2024.2-pyhd8ed1ab_0 
+  pyyaml             pkgs/main/linux-64::pyyaml-6.0.1-py312h5eee18b_0 
+  re2                conda-forge/linux-64::re2-2022.04.01-h27087fc_0 
+  requests           conda-forge/noarch::requests-2.32.3-pyhd8ed1ab_0 
+  s2n                pkgs/main/linux-64::s2n-1.3.27-hdbd6064_0 
+  safetensors        pkgs/main/linux-64::safetensors-0.4.4-py312hb7cc22b_0 
+  six                conda-forge/noarch::six-1.16.0-pyh6c4a22f_0 
+  snappy             pkgs/main/linux-64::snappy-1.2.1-h6a678d5_0 
+  sympy              conda-forge/noarch::sympy-1.13.3-pyh04b8f61_3 
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0 
+  tqdm               conda-forge/noarch::tqdm-4.66.5-pyhd8ed1ab_0 
+  typing-extensions  conda-forge/noarch::typing-extensions-4.12.2-hd8ed1ab_0 
+  typing_extensions  conda-forge/noarch::typing_extensions-4.12.2-pyha770c72_0 
+  urllib3            conda-forge/noarch::urllib3-2.2.2-pyhd8ed1ab_0 
+  utf8proc           pkgs/main/linux-64::utf8proc-2.6.1-h5eee18b_1 
+  xxhash             conda-forge/linux-64::xxhash-0.8.0-h7f98852_3 
+  yaml               conda-forge/linux-64::yaml-0.2.5-h7f98852_2 
+  yarl               pkgs/main/linux-64::yarl-1.11.0-py312h5eee18b_0 
+  zstd               pkgs/main/linux-64::zstd-1.5.5-hc292b87_2 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates    pkgs/main::ca-certificates-2024.9.24-~ --> conda-forge::ca-certificates-2024.8.30-hbcca054_0 
+
+
+
+Downloading and Extracting Packages
+pytz-2024.2          | 183 KB    |            |   0% 
+libev-4.33           | 104 KB    |            |   0% [A
+
+aws-c-common-0.8.5   | 207 KB    |            |   0% [A[A
+
+
+yaml-0.2.5           | 87 KB     |            |   0% [A[A[A
+
+
+
+aws-crt-cpp-0.18.16  | 213 KB    |            |   0% [A[A[A[A
+
+
+
+
+requests-2.32.3      | 57 KB     |            |   0% [A[A[A[A[A
+
+
+
+
+
+aiosignal-1.3.1      | 12 KB     |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+pandas-2.2.2         | 15.4 MB   |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+markupsafe-2.1.3     | 25 KB     |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+huggingface_hub-0.25 | 265 KB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+re2-2022.04.01       | 212 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+gflags-2.2.2         | 114 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+orc-2.0.1            | 1.1 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+safetensors-0.4.4    | 1.0 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+lz4-c-1.9.4          | 156 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libbrotlienc-1.0.9   | 287 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mkl_random-1.2.7     | 355 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgrpc-1.62.2       | 8.0 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+numpy-base-1.26.4    | 7.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+aws-crt-cpp-0.18.16  | 213 KB    | 7          |   8% [A[A[A[Apytz-2024.2          | 183 KB    | 8          |   9% 
+
+
+yaml-0.2.5           | 87 KB     | #8         |  18% [A[A[A
+libev-4.33           | 104 KB    | #5         |  15% [A
+
+aws-c-common-0.8.5   | 207 KB    | 7          |   8% [A[A
+
+
+
+
+
+
+
+markupsafe-2.1.3     | 25 KB     | ######4    |  65% [A[A[A[A[A[A[A[A
+
+
+
+
+requests-2.32.3      | 57 KB     | ##7        |  28% [A[A[A[A[A
+
+
+
+
+
+aiosignal-1.3.1      | 12 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+pandas-2.2.2         | 15.4 MB   |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+huggingface_hub-0.25 | 265 KB    | 6          |   6% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+pandas-2.2.2         | 15.4 MB   | 4          |   4% [A[A[A[A[A[A[A
+
+
+
+
+
+
+pandas-2.2.2         | 15.4 MB   | 9          |  10% [A[A[A[A[A[A[A
+
+
+
+
+
+
+pandas-2.2.2         | 15.4 MB   | ####       |  41% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+re2-2022.04.01       | 212 KB    | 7          |   8% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+pandas-2.2.2         | 15.4 MB   | #########5 |  95% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+gflags-2.2.2         | 114 KB    | #4         |  14% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+orc-2.0.1            | 1.1 MB    | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+orc-2.0.1            | 1.1 MB    | #####8     |  59% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+lz4-c-1.9.4          | 156 KB    | #          |  10% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mkl_random-1.2.7     | 355 KB    | 4          |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libbrotlienc-1.0.9   | 287 KB    | 5          |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+safetensors-0.4.4    | 1.0 MB    | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgrpc-1.62.2       | 8.0 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgrpc-1.62.2       | 8.0 MB    | ######6    |  67% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+numpy-base-1.26.4    | 7.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+numpy-base-1.26.4    | 7.7 MB    | ###        |  31% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+numpy-base-1.26.4    | 7.7 MB    | #####8     |  58% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+yaml-0.2.5           | 87 KB     | ########## | 100% [A[A[A
+
+
+yaml-0.2.5           | 87 KB     | ########## | 100% [A[A[A
+libev-4.33           | 104 KB    | ########## | 100% [A
+libev-4.33           | 104 KB    | ########## | 100% [A
+
+
+
+aws-crt-cpp-0.18.16  | 213 KB    | ########## | 100% [A[A[A[A
+
+
+
+aws-crt-cpp-0.18.16  | 213 KB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+
+
+markupsafe-2.1.3     | 25 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+markupsafe-2.1.3     | 25 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+requests-2.32.3      | 57 KB     | ########## | 100% [A[A[A[A[A
+
+
+
+
+requests-2.32.3      | 57 KB     | ########## | 100% [A[A[A[A[A
+
+aws-c-common-0.8.5   | 207 KB    | ########## | 100% [A[A
+
+aws-c-common-0.8.5   | 207 KB    | ########## | 100% [A[A
+
+
+
+
+
+aiosignal-1.3.1      | 12 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+re2-2022.04.01       | 212 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+re2-2022.04.01       | 212 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+huggingface_hub-0.25 | 265 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+huggingface_hub-0.25 | 265 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+gflags-2.2.2         | 114 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+gflags-2.2.2         | 114 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+orc-2.0.1            | 1.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+orc-2.0.1            | 1.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+lz4-c-1.9.4          | 156 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+lz4-c-1.9.4          | 156 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libbrotlienc-1.0.9   | 287 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libbrotlienc-1.0.9   | 287 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mkl_random-1.2.7     | 355 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mkl_random-1.2.7     | 355 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+safetensors-0.4.4    | 1.0 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+safetensors-0.4.4    | 1.0 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[Apytz-2024.2          | 183 KB    | ########## | 100% pytz-2024.2          | 183 KB    | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libgrpc-1.62.2       | 8.0 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+numpy-base-1.26.4    | 7.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+numpy-base-1.26.4    | 7.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+pandas-2.2.2         | 15.4 MB   | ########## | 100% [A[A[A[A[A[A[A
