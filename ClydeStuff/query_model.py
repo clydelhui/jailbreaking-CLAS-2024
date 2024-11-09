@@ -6,7 +6,7 @@ import torch
 
 # Variables to modify for HPC run
 input_json_file = "prompt_test_converted.json"  # Input file with prompts in LLaMA chat format
-output_json_file = "response_test.json"  # Output file to store LLM responses
+output_json_file = "response_test_2.json"  # Output file to store LLM responses
 model_name = "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2"  # Pre-trained model name from Huggingface
 device = 0  # Use 0 for GPU, -1 for CPU
 
@@ -45,7 +45,7 @@ def main():
     print(torch.cuda.device_count())
     if not torch.cuda.is_available():
         return
-    generator = pipeline("text-generation", model=model_name, device=device)
+    generator = pipeline("text-generation", model=model_name, device=device, return_full_text=False)
     print("Generator initialized")
 
     # List to store the outputs in LLaMA format
