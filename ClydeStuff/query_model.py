@@ -53,17 +53,14 @@ def main():
 
     # Loop through each prompt and generate a response using the message format
     for prompt in prompts:
-        prompt["content"] += '/n'
-        # Prepare the message structure including the editable system prompt and user input
-        messages = [
-            {"role": "system", "content": system_prompt},
-            prompt  # Using the prompt directly as it already contains the role and content
-        ]
+        # prompt["content"] += '/n'
 
-        # Pass the structured messages to the generator
-        response = generator(prompt['content'], max_length=100, num_return_sequences=1)
+        prompt_text = f"{system_prompt} Prompt: {prompt['content']} /n Adversarial Prompt:"
+        
+        # Generate response
+        response = generator(prompt_text, max_length=100, num_return_sequences=1, truncation=True)
         output = {
-            "role": "assistant",  # The assistant role is used for model-generated responses
+            "role": "assistant",
             "content": response[0]['generated_text']
         }
         print(response)
