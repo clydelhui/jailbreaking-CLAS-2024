@@ -6,7 +6,7 @@ import torch
 
 # Variables to modify for HPC run
 input_json_file = "prompt_test_converted.json"  # Input file with prompts in LLaMA chat format
-output_json_file = "response_test_2.json"  # Output file to store LLM responses
+output_json_file = "response_test_3.json"  # Output file to store LLM responses
 model_name = "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2"  # Pre-trained model name from Huggingface
 device = 0  # Use 0 for GPU, -1 for CPU
 
@@ -61,7 +61,7 @@ def main():
         ]
 
         # Pass the structured messages to the generator
-        response = generator(prompt['content'], max_length=300, num_return_sequences=1)
+        response = generator(prompt['content'], max_length=100, num_return_sequences=1)
         output = {
             "role": "assistant",  # The assistant role is used for model-generated responses
             "content": response[0]['generated_text']
