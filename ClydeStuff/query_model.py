@@ -7,7 +7,8 @@ import torch
 # Variables to modify for HPC run
 input_json_file = "prompt_test_converted.json"  # Input file with prompts in LLaMA chat format
 output_json_file = "response_test_3.json"  # Output file to store LLM responses
-model_name = "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2"  # Pre-trained model name from Huggingface
+# model_name = "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2"  # Pre-trained model name from Huggingface
+model_name = "edures/redteam-lexi"
 device = 0  # Use 0 for GPU, -1 for CPU
 
 # System prompt that can be edited as required
@@ -55,10 +56,10 @@ def main():
     for prompt in prompts:
         # prompt["content"] += '/n'
 
-        prompt_text = f"{system_prompt} Prompt: {prompt['content']} /n Adversarial Prompt:"
+        prompt_text = f"{system_prompt} Prompt: {prompt['content']} \n Adversarial Prompt:"
         
         # Generate response
-        response = generator(prompt_text, max_length=100, num_return_sequences=1, truncation=True)
+        response = generator(prompt_text, max_new_tokens=100, num_return_sequences=1, truncation=True)
         output = {
             "role": "assistant",
             "content": response[0]['generated_text']
