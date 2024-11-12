@@ -6,7 +6,7 @@ import torch
 
 # Variables to modify for HPC run
 input_json_file = "prompt_test_converted.json"  # Input file with prompts in LLaMA chat format
-output_json_file = "response_test_3.json"  # Output file to store LLM responses
+output_json_file = "response_test_sft.json"  # Output file to store LLM responses
 # model_name = "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2"  # Pre-trained model name from Huggingface
 model_name = "edures/redteam-lexi"
 device = 0  # Use 0 for GPU, -1 for CPU

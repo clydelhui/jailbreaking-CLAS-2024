@@ -25,7 +25,7 @@ def get_prompts(file_name):
             prompt_list.append(json_record["prompt"])
     return prompt_list
 original_prompt_list = get_prompts(file_name="prompt_test.jsonl")
-jailbreak_prompt_list = get_prompts(file_name="./outputs.jsonl")
+jailbreak_prompt_list = get_prompts(file_name="./outputs_sft.jsonl")
 
 def get_model_inference_pipeline(model_id = "meta-llama/Meta-Llama-3-8B-Instruct", max_new_tokens = 100):
     device = -1
@@ -39,7 +39,7 @@ def get_model_inference_pipeline(model_id = "meta-llama/Meta-Llama-3-8B-Instruct
 model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 pipe = get_model_inference_pipeline(model_id)
 
-file_name = "responses.jsonl"
+file_name = "responses_sft.jsonl"
 
 # Clear the file by opening it in write mode, then immediately closing it
 with open(file_name, 'w') as file:

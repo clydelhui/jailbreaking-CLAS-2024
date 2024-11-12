@@ -14,4 +14,4 @@ def convert_json_to_jsonl(input_file, output_file):
             file.write(json.dumps(original_item) + '\n')
 
 if __name__ == "__main__":
-    convert_json_to_jsonl("response_test_3.json", "outputs.jsonl")
+    convert_json_to_jsonl("response_test_sft.json", "outputs_sft.jsonl")
