@@ -8,10 +8,16 @@ This is adapted from starter kit for The Competition for LLM and Agent Safety 20
 ## Repository Structure
 
 `trl`: Consists of all SFT and PPO training code alongside SLURM scripts
+
 `trl/train.py`: Main PPO training file
+
 `trl/sft.py`: SFT Training file
+
 `trl/wandb.zip`: Complete wandb logs for all trainings attempted
 
+
 `ClydeStuff/query_model.py`: Inference for generation of modified prompts for submission
+
 `ClydeStuff/jailbreak_HPC.py`: Getting responses from jailbreak target model
+
 `ClydeStuff/eval_loop.py`: Grading of all responses
