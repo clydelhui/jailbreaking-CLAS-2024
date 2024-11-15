@@ -1,4 +1,4 @@
-`# Attempt for CLAS 2024
+# Attempt for CLAS 2024
 
 **WARNING:** *The data folders in this repository contain files with material that may be disturbing, unpleasant, or repulsive.*
 
